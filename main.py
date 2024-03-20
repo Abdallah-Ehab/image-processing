@@ -53,7 +53,7 @@ def logarithm(image):
 
 if __name__ == "__main__":
     # Read input image
-    image_path = "D:/abdallah_stuff/test images/image01.png"
+    image_path = "path/to/image"
     image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 
     # edge detection
